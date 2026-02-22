@@ -97,4 +97,4 @@ def run_measurement(path_l, path_r, baseline_mm):
     cv2.destroyAllWindows()
 
 # Baseline is 335 cm
-run_measurement("left.jpg", "right.jpg", 335.0)
+run_measurement("left_initial.jpg", "right_initial.jpg", 335.0)
